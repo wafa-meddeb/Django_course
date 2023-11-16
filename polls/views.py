@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("<h1>Hello, world. You're at the polls index.</h1>")
+    return HttpResponse("<h1>Hello, world. You're at the polls index.</h1>") 
 def home (request):
     backVar="Hello"
     a="Je suis la plus belle et la plus intelligente"
